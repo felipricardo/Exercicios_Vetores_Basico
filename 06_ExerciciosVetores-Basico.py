@@ -66,3 +66,29 @@ for i in range(len(lista)):
 
 # imprime a lista final
 print(lista)
+
+"""
+5)	Faça um programa que receba dez números e armazene em uma lista. Em seguida percorra toda a lista e procure qual o MAIOR valor dentro da lista e qual o MENOR valor dentro da lista. No final apresente o MAIOR e o MENOR valor.
+"""
+#ENTRADA
+#omaior
+#omenor
+
+#PROCESSAMENTO
+
+lista = [0] * 5
+omaior = 0
+omenor = 0 
+for i in range (5):
+  print("Digite um numero: ")
+  num = int(input())
+  lista [i] = num
+  if omaior < num:
+    omaior = num
+  if i == 0:
+    omenor = num
+  else:
+    if omenor > num:
+      omenor = num
+print("O maior numero é o: ", omaior)
+print("O menor numero é o: ", omenor)
