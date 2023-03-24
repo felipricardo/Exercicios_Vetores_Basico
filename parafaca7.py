@@ -14,4 +14,3 @@ for i in range (10):
 for i in range (10):
   inv[i] = lista [9-i]
 print(inv)
-  
