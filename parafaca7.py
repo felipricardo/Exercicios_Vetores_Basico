@@ -1,5 +1,6 @@
 """
-7)	Faça um programa que receba dez números e armazene em uma lista. Em seguida copie todos os números da primeira lista para uma segunda lista, mas na ordem invertida da primeira lista.
+7)	Faça um programa que receba dez números e armazene em uma lista. Em seguida copie todos os números da primeira lista para uma segunda lista, 
+mas na ordem invertida da primeira lista.
 """
 lista = [0] * 5
 inv = [0] * 5
