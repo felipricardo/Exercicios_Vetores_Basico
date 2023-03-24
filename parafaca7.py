@@ -11,7 +11,7 @@ for i in range (5):
 
 #for i in range (9,-1,-1):
 #  print(lista [i])
-for i in range (0,10):
+for i in range (5):
   inv[i] = lista [9-i]
 print(inv)
   
